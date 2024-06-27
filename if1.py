@@ -1,4 +1,4 @@
-str=input("Enter the string")
+str=input("Enter the string ;- ")
 vowels=["a","e","i","o","u"]
 
 ans="a" in str

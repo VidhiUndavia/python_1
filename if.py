@@ -1,4 +1,4 @@
-str=input("Enter the charactor")
+str=input("Enter the charactor :- ")
 
 vowels=["a","e","i","o","u"]
 
