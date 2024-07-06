@@ -4,3 +4,12 @@ wap to find out given year is leap year or not
 wap to find out maximum number of both the number
 wap to find out student is eligible for pg course or not
 wap for taking six subject marks from the user and print total,percentage, as well diplay that student is pass or fail
+
+wap to find out given number is palindrom or not
+wap to find out given number is armstrong number or not
+wap to print armstrong number comes in between given series
+wap to print apalindrom number comes in between given series
+wap to find out given number is prime number or not
+wap to print prime number list in between given series
+wap to print fibonacci series
+wap to find out factorial
