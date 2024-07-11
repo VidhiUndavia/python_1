@@ -1,11 +1,22 @@
 #with argument ,with return value
-
-def getcube(num):
-    num=num*num*num
-    print(num)
-    return num
+'''
+answer= num*num*num
+print("answer = ",answer)
+'''
+def getcube(num=1):
+    num1=num*num*num
+    print(num1)
+    return num1
 
 num=int(input("Enter number"))
 answer=getcube(num)
-print(num)
-print("answer = ",answer)
+print(answer)
+print("hi")
+print("hi")
+print("hi")
+print("hi")
+num=int(input("Enter number"))
+answer=getcube(num)
+print(answer)
+answer=getcube()
+print(answer)
