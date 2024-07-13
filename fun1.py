@@ -3,10 +3,10 @@
 answer= num*num*num
 print("answer = ",answer)
 '''
-def getcube(num=1):
+def getcube(num):
     num1=num*num*num
     print(num1)
-    return num1
+   # return num1
 
 num=int(input("Enter number"))
 answer=getcube(num)
