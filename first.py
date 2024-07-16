@@ -1,6 +1,3 @@
-'''
-hello world, hi
-good morning
-'''
-print("hello world")
-print("welcome to the world of IT")
+num=int(input('enter the number'))
+for i in range(1,11,1):
+    print(num,' * ',i,' = ',i*num)
