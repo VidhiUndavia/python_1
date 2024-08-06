@@ -1,8 +1,11 @@
 class parent:
+    __stdentid=0
     def __init__(self,name) :
         self.name=name
+        self.__stdentid+=1
         print("Parent class constructor")
     def display(self):
+        print("ID = ",self.__stdentid)
         print("Name = ",self.name)
         print("Parent class display method called")
 class child(parent):
@@ -11,6 +14,7 @@ class child(parent):
         self.surname=surname
         print("Child class constructor")
         print("Name = ",self.name)
+        #print("ID  = ",self.__stdentid)
     def display1(self):
        
         print("Surname = ",self.surname)
