@@ -14,3 +14,9 @@ print(name2.istitle())
 print(name2.isupper())
 space="              "
 print(space.isspace())
+
+print("Length of name = ",len(name2))
+print("Length of institute name = ",len(name))
+
+letter='a'
+print(letter.isascii)
