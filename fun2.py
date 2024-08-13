@@ -6,5 +6,5 @@ def getcube():
   
 
 
-getcube()
+#getcube()
 
