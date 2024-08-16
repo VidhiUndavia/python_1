@@ -1,22 +1,19 @@
-from mymath import addition,subtraction
+from mymath import *
 from fun2 import getcube
- 
-# import mymath, fun2
 
 num1=int(input("Enter the first number"))
 num2=int(input("Enter the second number"))
-add=mymath.addition(num1,num2)
+add=addition(num1,num2)
 print("Addition = ",add)
 print("----------------------------------------")
-fun2.getcube()
+getcube()
 print("----------------------------------------")
-mymath.subtraction()
+subtraction()
 print("----------------------------------------")
 
 num1=int(input("Enter the first number"))
 num2=int(input("Enter the second number"))
-mymath.multiplication(num1,num2)
+multiplication(num1,num2)
 print("----------------------------------------")
-div=mymath.division() 
+div=division() 
 print("Division = ",div)
-

@@ -1,9 +1,17 @@
 #with argument,no return value
-def getcube(number1):
+import math
+num=89
+def getcube(num):
     
-    answer=number1*number1*number1
+    #global num
+    answer=num*num*num
+    
+    print(num)
     print("answer = ",answer)
   
 
 num=int(input("Enter number"))
-getcube(num)
+getcube(3)
+
+ans=dir(str)
+print(ans)

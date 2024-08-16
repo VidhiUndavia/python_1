@@ -1,4 +1,5 @@
 #no argument,with return value
+
 def getcube():
     num=int(input("Enter number"))
     answer=num*num*num
